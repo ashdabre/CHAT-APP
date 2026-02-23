@@ -63,12 +63,22 @@
 //     </div>
 //   );
 // }
+import { auth } from "@clerk/nextjs/server";
 import { SignIn } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
 
-export default function Home() {
+export default async function Home() {
+  const { userId } = await auth();
+
+  // If user is logged in → go to chat
+  if (userId) {
+    redirect("/chat");
+  }
+
+  // If not logged in → show sign in page
   return (
-    <div className="flex items-center justify-center h-screen">
-      <SignIn />
+    <div className="flex items-center justify-center min-h-screen">
+      <SignIn routing="path" path="/sign-in" />
     </div>
   );
 }
