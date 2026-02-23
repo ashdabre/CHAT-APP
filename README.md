@@ -4,10 +4,6 @@
 ## LIVE URL
 ### Live url- https://chat-app-eta-sandy-77.vercel.app
 
-###  Problem Statement
-
-NOTE- Visit the backend url first in order for frontend to work
-
 ##  Tech Stack
 
 * Next.js 16 (App Router + Turbopack)
