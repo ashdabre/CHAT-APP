@@ -74,9 +74,9 @@ Add your environment variables in the dashboard before deploying.
 
 ## **📸 Screenshots**
 
-![Images](chat-app/pictures/T-1.png) 
-![Images](chat-app/pictures/T-2.png) 
-![Images](chat-app/pictures/T-3.png)
+![Images](pictures/T-1.png) 
+![Images](pictures/T-2.png) 
+![Images](pictures/T-3.png)
 
 
 
