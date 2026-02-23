@@ -2,8 +2,8 @@
  ### A real-time chat application built with Next.js 16, Convex, and Clerk.
 ---
 ## LIVE URL
-### Backend url- https://corep-assistant-dwee.onrender.com/
-### Frontend url- https://corep-assistant-2.streamlit.app/
+### Live url- https://chat-app-eta-sandy-77.vercel.app
+
 ###  Problem Statement
 
 NOTE- Visit the backend url first in order for frontend to work
@@ -78,7 +78,7 @@ Add your environment variables in the dashboard before deploying.
 
 ## **📸 Screenshots**
 
-![Images](assistant/assistant/assets/C-img1.png) 
+![Images](chat-app/pictures/T-1.png) 
 ![Images](assistant/assistant/assets/C-img2.png) 
 ![Images](assistant/assistant/assets/C-img6.png)
 ![Images](assistant/assistant/assets/C-img7.png)
